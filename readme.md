@@ -13,6 +13,8 @@ https://github.com/prsdm/mlops-project
 
 ### Access Key
 Fz5Q9g2p2LKYKpe7SdhY
+
+### Secret Key
 hg6Trh4VLT1CcwMw4Kt8LXMynUSSqQRevH44wJQw
 
 ### bucket 
