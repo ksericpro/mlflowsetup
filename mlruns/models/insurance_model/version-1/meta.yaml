@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1737167491428
+current_stage: None
+description: null
+last_updated_timestamp: 1737167491428
+name: insurance_model
+run_id: cc566bf181c64de1b4c25defa63fd634
+run_link: null
+source: file:///D:/projects/pyprojects/mlflow/mlruns/606659364223799281/cc566bf181c64de1b4c25defa63fd634/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///D:/projects/pyprojects/mlflow/mlruns/606659364223799281/cc566bf181c64de1b4c25defa63fd634/artifacts/model
+user_id: null
+version: 1

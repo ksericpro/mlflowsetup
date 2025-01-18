@@ -1,6 +1,10 @@
 ## Link
 https://blog.min.io/setting-up-a-development-machine-with-mlflow-and-minio/
 
+https://towardsdatascience.com/machine-learning-operations-mlops-for-beginners-a5686bfe02b2
+
+https://github.com/prsdm/mlops-project
+
 # Setup
 
 - docker-compose --env-file config.env up -d --build
@@ -13,3 +17,15 @@ hg6Trh4VLT1CcwMw4Kt8LXMynUSSqQRevH44wJQw
 
 ### bucket 
 zicare
+
+# Train with mlflow
+
+- python train.py
+
+# to launch MLflow UI
+- mlflow ui
+http://127.0.0.1:5000
+
+# fast api
+- uvicorn app:app --reload
+http://127.0.0.1:8000
