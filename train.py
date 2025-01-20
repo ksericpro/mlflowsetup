@@ -7,6 +7,12 @@ from steps.clean import Cleaner
 from steps.train import Trainer
 from steps.predict import Predictor
 from sklearn.metrics import classification_report
+# Import the necessary module
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from the .env file (if present)
+load_dotenv()
 
 # Set up logging
 logging.basicConfig(level=logging.INFO,format='%(asctime)s:%(levelname)s:%(message)s')
@@ -106,4 +112,7 @@ def train_with_mlflow():
         
 if __name__ == "__main__":
     # main()
+    # Access environment variables as if they came from the actual environment
+    MLFLOW_TRACKING_URI = os.getenv('MLFLOW_TRACKING_URI')
+    print(f'MLFLOW_TRACKING_URI={MLFLOW_TRACKING_URI}')
     train_with_mlflow()

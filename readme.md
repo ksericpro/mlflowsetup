@@ -5,6 +5,8 @@ https://towardsdatascience.com/machine-learning-operations-mlops-for-beginners-a
 
 https://github.com/prsdm/mlops-project
 
+https://mlflow.org/docs/latest/introduction/index.html
+
 # Setup
 
 - docker-compose --env-file config.env up -d --build
